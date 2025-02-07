@@ -1,0 +1,26 @@
+# Database
+sqlalchemy
+# API and Networking
+requests==2.31.0
+urllib3>=2.0.0
+certifi
+# Data Processing
+pandas==2.2.3
+numpy==1.26.3
+# Web Framework
+streamlit==1.42.0
+# Visualization
+plotly==6.0.0
+# Machine Learning
+scikit-learn==1.2.2
+prophet
+# Environment and Utils
+python-dotenv==1.0.1
+# Development
+pytest
+black
+flake8
+openai==1.61.0
+aiohttp==3.9.3
+asyncio==3.4.3
+ShopifyAPI==12.7.0

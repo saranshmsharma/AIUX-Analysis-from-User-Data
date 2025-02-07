@@ -1,0 +1,66 @@
+/* Save this in assets/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Modern Card Style */
+div.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+div.stButton > button:hover {
+    background-color: #1d4ed8;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Modern Inputs */
+div.stTextInput > div > div > input {
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    padding: 0.5rem;
+}
+
+/* Modern Expander */
+.streamlit-expanderHeader {
+    background-color: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Modern Metrics */
+div.stMetric {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+/* Progress Bars */
+div.stProgress > div > div > div {
+    background-color: #2563eb;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #f8fafc;
+    border-right: 1px solid #e2e8f0;
+}
+
+/* Headers */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* Cards */
+div.element-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+} 

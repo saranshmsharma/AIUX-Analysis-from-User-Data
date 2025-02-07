@@ -1,0 +1,15 @@
+
+Shopify Analytics Dashboard
+Shop URL (e.g., your-store.myshopify.com)
+
+https://test-store-inclubale.myshopify.com/
+Access Token
+
+••••••••••••••••••••••••••••••••••••••
+
+💡 Tips:
+
+Shop URL should be in the format: your-store.myshopify.com
+Access token can be found in your Shopify admin under Apps > Develop apps
+
+Authentication failed: Failed to initialize Shopify session: Response(code=401, body="b'{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}'", headers={'Date': 'Wed, 05 Feb 2025 04:01:17 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'x-sorting-hat-podid': '33', 'x-sorting-hat-shopid': '78202732578', 'referrer-policy': 'origin-when-cross-origin', 'x-frame-options': 'DENY', 'x-shopid': '78202732578', 'x-shardid': '33', 'www-authenticate': 'Basic Realm="Shopify API Authentication"', 'strict-transport-security': 'max-age=7889238', 'x-request-id': '3e7aff20-1435-4ec7-a124-81af6520bcc7-1738728077', 'server-timing': 'processing;dur=23', 'content-security-policy': "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://; block-all-mixed-content; child-src 'self' https:// shopify-pos://; connect-src 'self' wss:// https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.pci.shopifyinc.com https://checkout.pci.shopifyinc.com/build/5ae8bbe/card_fields.js https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshops&source%5Bsection%5D=admin_api&source%5Buuid%5D=3e7aff20-1435-4ec7-a124-81af6520bcc7-1738728077; report-to shopify-csp", 'x-content-type-options': 'nosniff', 'x-download-options': 'noopen', 'x-permitted-cross-domain-policies': 'none', 'x-xss-protection': '1; mode=block', 'reporting-endpoints': 'shopify-csp="/csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshops&source%5Bsection%5D=admin_api&source%5Buuid%5D=3e7aff20-1435-4ec7-a124-81af6520bcc7-1738728077"', 'x-dc': 'gcp-us-east1,gcp-us-east1,gcp-us-east1', 'Alt-Svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=uSoHLqeHmQAWbqMuU1FtgqUvZbgX3JIrgHGZuWVF6uYGhkyQqncBZVo%2B%2B1yxpYAS9fZnuNlOboWeOOV6%2B79LAnlZ4Q9G1iMlczcj%2BHz3xWPRBF8Mo5Ee71IBoGWbuV92yleUbywg4%2BF0DINhLEl85%2B23L6k%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}', 'Server-Timing': 'processing;dur=23', 'Server': 'cloudflare', 'CF-RAY': '90cfff957a5f0102-ORD'}, msg="Unauthorized")
